@@ -24,17 +24,19 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Address of the deployed contract
-  const contractAddress = "YOUR-CONTRACT";
+  const contractAddress = "0x8aF103228623b77549016759F00623642cFfd81b";
 
   // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
 
   // Create a contract instance
-  const contractFactory = await hre.ethers.getContractFactory("TestToken");
+  const contractFactory = await hre.ethers.getContractFactory(
+    "SwisstronikCodeChallenge"
+  );
   const contract = contractFactory.attach(contractAddress);
 
   // Send a shielded transaction to mint 100 tokens in the contract
-  const functionName = "mint100tokens";
+  const functionName = "mintTokens";
   const mint100TokensTx = await sendShieldedTransaction(
     signer,
     contractAddress,

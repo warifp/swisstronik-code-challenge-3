@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const contract = await hre.ethers.deployContract("TestToken");
+  const contract = await hre.ethers.deployContract("SwisstronikCodeChallenge");
 
   await contract.waitForDeployment();
 
@@ -12,3 +12,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
