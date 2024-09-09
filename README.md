@@ -1,4 +1,4 @@
-# Swisstronik Code Challenges 3
+# Swisstronik: Mint 100 ERC-20 tokens
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
