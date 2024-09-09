@@ -17,7 +17,7 @@ npx hardhat run scripts/transfer.js --network swisstronik
 
 ## Deployed Contracts
 ```
-Smart Contract : 0x8aF103228623b77549016759F00623642cFfd81b
+Smart Contract : 0x1f6e6e03c7b18cA8f04729d3c1a031456D89c807
 EVM            : 0xfE46d95aE3d46d2ff11C246a38bcb4456621f9e6
 ```
 
@@ -32,14 +32,14 @@ Token Symbol : WAP
 ### Mint Token
 TX Mint
 ```
-https://explorer-evm.testnet.swisstronik.com/tx/0x6d32fd212c7e0a0e278e0d2e501a32d1a19d22f3021d52cd463020d459e0bceb
+https://explorer-evm.testnet.swisstronik.com/tx/0xddda39557f9e510c2ff4dc7d9ff0705038003a1d0468da5bb8b397651d6037a2
 ```
 
 TX Transfer
 Token Transfer with value "100" to Address ```0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1```
 
 ```
-https://explorer-evm.testnet.swisstronik.com/tx/0x6b7afeac4ce8fbebc456b05f50f734529c7626a90389df1e0775f59a13ea9aff
+https://explorer-evm.testnet.swisstronik.com/tx/0xad83391d0345734aab7041483e251651df01008f156f1dc08de2977d6a89d672
 ```
 
 
