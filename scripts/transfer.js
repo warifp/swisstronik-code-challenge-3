@@ -24,7 +24,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Address of the deployed contract
-  const replace_contractAddress = "0x8aF103228623b77549016759F00623642cFfd81b";
+  const replace_contractAddress = "0x1f6e6e03c7b18cA8f04729d3c1a031456D89c807";
 
   // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
